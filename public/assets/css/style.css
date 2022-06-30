@@ -1,0 +1,303 @@
+body{
+	background-color: #EDF4FF;
+}
+a{
+	text-decoration: none;
+}
+.mortable{
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+ul{
+	padding: 0px;
+}
+.top-portion{
+	background-color: #0C335C;
+	padding: 20px;
+}
+button{
+	border: 0px;
+}
+.headlink{
+	background-color: #fff;
+	padding:8px;
+	margin-bottom: 20px;
+}
+.sidelink{
+	background-color: #19488D;
+	color: #fff;
+	padding:8px;
+}
+.sidelink:hover{
+	color: white;
+}
+.twittes a{
+	color: #fff;
+}
+.twittes a:hover{
+	color: #fff;
+}
+.search{
+	padding: 5px 0px;
+	align:center;
+}
+i{
+	color: #000;
+}
+.introduction{
+	background-color: #19488D;
+	padding-top: 10px;
+}
+.intro{
+	text-align: center;
+	color: #fff;
+	display: block;
+}
+.government{
+    margin-left: -170px;
+	font-size: 18px;
+}
+.name{
+    margin-left: -170px;
+
+	font-size: 24px;
+}
+.navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-default{
+	background-color: #0071ba!important;
+}
+.mainmenu {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+	border: 0px !important;
+}
+.navbar-nav > li:last-child > a {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.dropdown-menu {
+    padding: 0px 0;
+    margin: 0 0 0;
+    border: 0px solid transition !important;
+	border: 0px solid rgba(0,0,0,.15);
+	border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+
+/*Main Menu*/
+.navbar-nav .open .dropdown-menu > li > a {padding: 16px 15px 16px 25px;
+}
+.header_bottom { /*background: #0071ba*/ }
+.header_area .header_bottom .mainmenu a , .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 16px 15px;
+	font-family: 'Roboto', sans-serif;
+}
+.header_area .mainmenu .active a,
+.header_area .mainmenu .active a:focus,
+.header_area .mainmenu .active a:hover,
+.header_area .mainmenu li a:hover,
+.header_area .mainmenu li a:focus ,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: #white;
+    background: #19488d;
+    outline: 0;
+}
+/*Main Menu*/
+
+.navbar-default .navbar-toggle { border-color: #fff } /*Toggle Button*/
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff } /*Toggle Button*/
+
+/*Sub Menu*/
+.mainmenu .collapse ul > li:hover > a{background:#19488d;}
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{background: #0071ba;}
+.mainmenu .collapse ul ul ul > li:hover > a{background: #0071ba;}
+
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background:#19488d;}
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background:#0a1464}
+.mainmenu .collapse ul ul ul ul, .mainmenu .collapse ul ul ul ul.dropdown-menu{background:#e4eeb8}
+
+/*Drop-down menu work on hover*/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px}
+@media only screen and (min-width: 767px) {
+.mainmenu .collapse ul li{position:relative;}
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+
+}
+
+.title{
+	font-size: 16px;
+	background-color: #F0F0F0;
+	padding-left: 15px;
+}
+.news{
+	line-height: 30px;
+}
+.minister img{
+	margin-left: auto;
+	margin-right: auto;
+}
+.minister{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.newsportion{
+	background-color: #19488D;
+	margin-bottom: 10px;
+}
+.update{
+	background-color: #0B2D52;
+	display: inline-block;
+	color: #fff;
+	font-size: 15px;
+	padding: 8px;
+	margin-bottom: 20px !important;
+}
+/* Ticker */
+ul{
+    padding-left: 15px;
+    list-style: none;
+}
+#ticker {
+    display: inline-block;
+    height: 45px;
+    overflow: hidden;
+}
+#ticker li {
+    margin-top:30px !important;
+    height: 20px;
+}
+.maininfo{
+	color: #fff;
+	/* display: inline-block; */
+
+}
+.maininfo:hover{
+    text-decoration: none;
+    color: #fff !important;
+}
+.category{
+	background-color: #19488D;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.category a{
+	color: #fff;
+	text-decoration: none;
+}
+.category a:hover{
+	color: #fff;
+}
+.brief{
+	background-color: #EDF4FF;
+	padding-top: 3px;
+	line-height: 28px;
+	text-align: justify;
+}
+i{
+	margin-top: 20px;
+}
+.breifing p{
+	display: inline;
+	padding-left: 5px;
+}
+small{
+	display: block;
+	margin-top: 10px;
+}
+.breifing hr{
+	border:solid thin;
+	border-color:#ccc;
+}
+.gallery h4{
+	background-color: #F0F0F0;
+	padding: 10px;
+}
+.thumbnail{
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+.thumbnail h4{
+	background-color: #fff;
+	font-size: 16px;
+}
+.thumbnail .audio{
+	background-color: #0c335c;
+	height: 185px;
+}
+.thumbnail .audio i{
+	margin-top: 75px;
+	font-size: 50px;
+	color: #fff;
+}
+.footer{
+	background-color: #19488D;
+}
+.footer h5{
+	color: #2EC7C5;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.footer ul li{
+	list-style-type: none;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.pagedetails ul{
+	margin-top: 30px;
+}
+.pagedetails ul li{
+	margin-bottom: 30px;
+}
+.pagedetails .icons{
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-left: 5px;
+}
+.pagedetails .icons i{
+	color: #2F5C80;
+	font-size: 20px;
+}
+.twittes{
+	margin-top: 20px;
+}
+.copyright{
+	background-color: #0C335C;
+	color: #fff;
+	text-align: center;
+}
+.copyright p{
+	margin-top: 20px;
+}
+.mainheading h1{
+	color: #9e2a23;
+}
+.maincontent .sectiontitle{
+	text-align: center;
+	margin-bottom: 20px;
+}
